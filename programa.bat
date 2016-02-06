@@ -13,13 +13,19 @@ pause
 :PREGUNTA
 color f
 echo Quieres abrir el archivo? (S/N) S=si N=no
+echo (pulse l o L para ver la licencia)
 set/p "cho=>"
 if %cho%==S goto COLOR
 if %cho%==s goto COLOR
 if %cho%==n goto ENDE
 if %cho%==N goto ENDE
+if %cho%==l goto LICENCIA
+if %cho%==L goto LICENCIA
 echo Caracter invalido... Repito la pregunta
 goto PREGUNTA
+:LICENCIA
+start licencia.bat
+exit
 :COLOR
 echo elige el color del texto que quieras:
 echo (A) Azul, (V) verde, (R) rojo, (P) Purpura
@@ -75,3 +81,4 @@ pause
 start d.bat
 goto FIN
 :FIN
+exit

@@ -4,7 +4,7 @@ color b
 echo #################################################
 echo #         Instalar Camtasia Studio              #
 echo #                    Y                          #
-echo #           Traducirlo al espaéš³l               #
+echo #           Traducirlo al español               #
 echo #                                               #
 echo #                                               #
 echo #################################################
@@ -41,13 +41,13 @@ echo .
 echo 10- Le dais a Finish y os saldra una ventana en vuestro explorador, esta la cierras.
 echo .
 echo 11- Le dais click derecho a a "disable_instalation" y a continuacion le dais a ejecutar como administrador
-echo y os saldra otra pestaéŽ™ de advertencia y le dais a si
+echo y os saldra otra pestaña de advertencia y le dais a si
 echo .
 echo .
 echo .
 echo .
 echo ################################################################
-echo Traducir programa al espaéš³l
+echo Traducir programa al español
 echo .
 echo 12- Vais a la carpeta "traduccion 8.4.1.1745" y copiais todos los archivos.
 echo .
